@@ -1,0 +1,199 @@
+.padre{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 100px 100px 100px;
+
+}
+.hijo1{
+    background-color: none;
+    border-style: none;
+    border-color: none;
+    font-size: 30px;
+    text-align: center;
+    grid-column: 1/5;
+}
+.hijo2{
+    background-color: orange;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 1/5;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.hijo3{
+    background-color: orange;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 1/3;
+    text-align: center;
+    border-radius: 20px;
+}
+.hijo4{
+    background-color: orange;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 1fr;
+    text-align: center;
+    border-radius: 20px;
+}
+.hijo5{
+    background-color: orange;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 1fr;
+    text-align: center;
+    border-radius: 20px;
+}
+.hijo6{
+    background-color: orange;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 1fr;
+    text-align: center;
+    border-radius: 20px;
+}
+.hijo7{
+    background-color: orange;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 2/5;
+    text-align: center;
+    border-radius: 20px;
+}
+.hijo8{
+    background-color: orange;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 1/3;
+    text-align: center;
+    border-radius: 20px;
+}
+.hijo9{
+    background-color: none;
+    border-style: none;
+    border-color: none;
+    font-size: 50px;
+    grid-column: 3/5;
+    height: 100px;
+    text-align: center;
+}
+.hijo10{
+    background-color: orange;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 30px;    
+    grid-column: 3/5;
+    height: 50%;
+    text-align: center;
+    border-radius: 20px;
+}
+.hijo11{
+    background-color: orange;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 30px;
+    grid-column: 3/5;
+    height: 50%;
+    text-align: center;
+    border-radius: 20px;
+}
+.padre2{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.cont{
+
+    font-size: 50px;
+    grid-column: 1fr;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 40px;
+}
+.cont_t{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column 3;   
+}
+.cont1{
+    background-color: rgb(46, 248, 46);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont2{
+    background-color: rgb(46, 248, 46);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.cont4{
+    background-color: rgb(46, 248, 46);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+}
+.cont56{
+    display: flex;
+    flex-direction: column 3;   
+}
+.cont5{
+    background-color: rgb(46, 248, 46);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+}
+.cont6{
+    background-color: rgb(46, 248, 46);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+}
+.cont3{
+    background-color: rgb(46, 248, 46);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
